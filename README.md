@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-<a href="https://faceview-front.herokuapp.com/profile">DEMO</a>
+<a href="https://faceview-front.herokuapp.com">DEMO</a>
