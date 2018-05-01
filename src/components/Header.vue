@@ -6,10 +6,6 @@
           <router-link :to="homeLink" class="navbar-brand cool-font">FaceView</router-link>
         </div>
 
-        <!--<ul class="nav navbar-nav">
-          <router-link to="/portfolio" tag="li" activeClass="active"><a>Portfolio</a></router-link>
-          <router-link to="/stocks" tag="li" activeClass="active"><a>Stocks</a></router-link>
-        </ul>-->
         <app-search v-if="isAuth"></app-search>
 
         <strong class="navbar-text navbar-right"></strong>
