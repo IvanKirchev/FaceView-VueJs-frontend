@@ -7,7 +7,7 @@ import axios from 'axios'
 import Vuelidate from 'vuelidate'
 import Vuetify from 'vuetify'
 
-axios.defaults.baseURL = ' https://faceview.scalingo.io'
+axios.defaults.baseURL = ' http://localhost:8001'
 
 Vue.use(Vuelidate)
 
