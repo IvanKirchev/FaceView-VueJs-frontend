@@ -5,6 +5,7 @@
     <transition name="flip" mode="out-in">
       <div v-if="showDropdown" class="dropdown">
         <ul class="r-container">
+          <li v-if="!friendRequests"><p>No requests...</p></li>
           <li v-for="request in friendRequests" class="row">
             <div class="col-md-4">
               <img v-if="request.senderProfilePic" :src="request.senderProfilePic" width="100%">
